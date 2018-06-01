@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0531968D201203520042C818 /* accessKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531968C201203520042C818 /* accessKeyViewController.swift */; };
+		0531968F20120A0D0042C818 /* client_449566904600-ajo4at6pl1ajq5phlh0kne1m7mfd0vfd.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0531968E20120A0D0042C818 /* client_449566904600-ajo4at6pl1ajq5phlh0kne1m7mfd0vfd.apps.googleusercontent.com.plist */; };
+		0531969120121A000042C818 /* more_options.png in Resources */ = {isa = PBXBuildFile; fileRef = 05319690201219FF0042C818 /* more_options.png */; };
+		055CD31220249E2600A6928C /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 055CD31020249E2500A6928C /* show.png */; };
+		055CD31320249E2600A6928C /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = 055CD31120249E2600A6928C /* hide.png */; };
+		05608F67203196D300DB887A /* ReceiverOnlyFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608F5E203196CF00DB887A /* ReceiverOnlyFileCell.swift */; };
+		05608F68203196D300DB887A /* SenderOnlyTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608F5F203196D000DB887A /* SenderOnlyTextCell.swift */; };
+		05608F69203196D300DB887A /* SenderOnlyFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05608F60203196D000DB887A /* SenderOnlyFileCell.xib */; };
+		05608F6A203196D300DB887A /* ReceiverOnlyTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05608F61203196D100DB887A /* ReceiverOnlyTextCell.xib */; };
+		05608F6B203196D300DB887A /* ReceiverOnlyFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05608F62203196D200DB887A /* ReceiverOnlyFileCell.xib */; };
+		05608F6C203196D300DB887A /* ReceiverOnlyTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608F63203196D200DB887A /* ReceiverOnlyTextCell.swift */; };
+		05608F6D203196D300DB887A /* SenderOnlyTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05608F64203196D200DB887A /* SenderOnlyTextCell.xib */; };
+		05608F6E203196D300DB887A /* SenderOnlyFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608F65203196D300DB887A /* SenderOnlyFileCell.swift */; };
+		05608F6F203196D300DB887A /* VetChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608F66203196D300DB887A /* VetChatViewController.swift */; };
+		05608F712031A17F00DB887A /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05608F702031A17F00DB887A /* DatePickerDialog.swift */; };
+		05608F742031C9AC00DB887A /* unseen.png in Resources */ = {isa = PBXBuildFile; fileRef = 05608F722031C9AB00DB887A /* unseen.png */; };
+		05608F752031C9AD00DB887A /* seen.png in Resources */ = {isa = PBXBuildFile; fileRef = 05608F732031C9AC00DB887A /* seen.png */; };
+		05608F772031CBCC00DB887A /* file_atach_172.png in Resources */ = {isa = PBXBuildFile; fileRef = 05608F762031CBCB00DB887A /* file_atach_172.png */; };
+		05608F792031CC0D00DB887A /* send_blue_96.png in Resources */ = {isa = PBXBuildFile; fileRef = 05608F782031CC0B00DB887A /* send_blue_96.png */; };
+		05628966202EC8270068FDEE /* ListOfPetOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05628965202EC8270068FDEE /* ListOfPetOwnerViewController.swift */; };
+		0568D69B200DCDFF005A85F1 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568D69A200DCDFF005A85F1 /* APIManager.swift */; };
+		0568D69D200DD917005A85F1 /* ConstantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568D69C200DD917005A85F1 /* ConstantFile.swift */; };
+		0568D6A1200DE186005A85F1 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568D69F200DE185005A85F1 /* Controller.swift */; };
+		0573F8C620108D430006D7F2 /* PetUpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573F8C520108D430006D7F2 /* PetUpdateProfileViewController.swift */; };
+		057733BD200F24A10028DCF9 /* back_arrow_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 057733BC200F249E0028DCF9 /* back_arrow_2.png */; };
+		057733BF200F2CA20028DCF9 /* btn_2 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 057733BE200F2CA20028DCF9 /* btn_2 (1).png */; };
+		057733C1200F2CD50028DCF9 /* circle_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 057733C0200F2CD40028DCF9 /* circle_2.png */; };
+		057733C3200F31080028DCF9 /* phone_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 057733C2200F31070028DCF9 /* phone_black.png */; };
+		057733C5200F32270028DCF9 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 057733C4200F32260028DCF9 /* location.png */; };
+		057733C7200F33320028DCF9 /* camera_.png in Resources */ = {isa = PBXBuildFile; fileRef = 057733C6200F33320028DCF9 /* camera_.png */; };
+		057733CA200F33D10028DCF9 /* VetUpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057733C9200F33D10028DCF9 /* VetUpdateProfileViewController.swift */; };
+		05774EDE20170EEE00ED7620 /* down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 05774EDD20170EED00ED7620 /* down-arrow.png */; };
+		05774EE12017129100ED7620 /* addPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05774EE02017129100ED7620 /* addPetViewController.swift */; };
+		05774EE8201744F300ED7620 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 05774EE5201744F200ED7620 /* README.md */; };
+		05774EE9201744F300ED7620 /* RappleColorPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 05774EE6201744F200ED7620 /* RappleColorPicker.podspec */; };
+		05774EEA201744F300ED7620 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 05774EE7201744F300ED7620 /* LICENSE */; };
+		05774EEC20177C9000ED7620 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 05774EEB20177C8D00ED7620 /* plus.png */; };
+		0586B80F2024448900353542 /* SeearchDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586B80E2024448900353542 /* SeearchDoctorViewController.swift */; };
+		0586B81120244EAC00353542 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0586B81020244EAA00353542 /* search.png */; };
+		0586B81320244F3700353542 /* drop-down-arrow (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 0586B81220244F3600353542 /* drop-down-arrow (1).png */; };
+		0586B8152024511C00353542 /* facebook-placeholder-for-locate-places-on-maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 0586B8142024511A00353542 /* facebook-placeholder-for-locate-places-on-maps.png */; };
+		0586B8192024520700353542 /* chat (5).png in Resources */ = {isa = PBXBuildFile; fileRef = 0586B8182024520600353542 /* chat (5).png */; };
+		0586B81B202465FB00353542 /* SearchDoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586B81A202465FB00353542 /* SearchDoctorCell.swift */; };
+		058D0DCE201620A1002D550C /* petChangePinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D0DCD201620A1002D550C /* petChangePinViewController.swift */; };
+		058D0DD1201628E4002D550C /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 058D0DCF201628E0002D550C /* delete.png */; };
+		058D0DD2201628E4002D550C /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 058D0DD0201628E2002D550C /* edit.png */; };
+		058D0DD5201629D3002D550C /* petListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D0DD4201629D3002D550C /* petListViewController.swift */; };
+		058D0DD7201629F2002D550C /* PetListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D0DD6201629F2002D550C /* PetListCell.swift */; };
+		0591B19A200C7F31000E5797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B199200C7F31000E5797 /* AppDelegate.swift */; };
+		0591B19C200C7F31000E5797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B19B200C7F31000E5797 /* ViewController.swift */; };
+		0591B19F200C7F31000E5797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591B19D200C7F31000E5797 /* Main.storyboard */; };
+		0591B1A1200C7F31000E5797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1A0200C7F31000E5797 /* Assets.xcassets */; };
+		0591B1A4200C7F31000E5797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1A2200C7F31000E5797 /* LaunchScreen.storyboard */; };
+		0591B1AF200C8518000E5797 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1AE200C8518000E5797 /* splash.png */; };
+		0591B1B1200C8649000E5797 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1B0200C8649000E5797 /* play.png */; };
+		0591B1B3200C879A000E5797 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1B2200C879A000E5797 /* camera.png */; };
+		0591B1B5200C87B1000E5797 /* app_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1B4200C87B1000E5797 /* app_title.png */; };
+		0591B1B7200C90DF000E5797 /* video_calling_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1B6200C90DE000E5797 /* video_calling_bg.png */; };
+		0591B1B9200C9258000E5797 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1B8200C9258000E5797 /* help.png */; };
+		0591B1BC200C93A2000E5797 /* pet_owner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1BA200C93A2000E5797 /* pet_owner.png */; };
+		0591B1BD200C93A2000E5797 /* veterinarian.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1BB200C93A2000E5797 /* veterinarian.png */; };
+		0591B1C0200CB066000E5797 /* msg_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1BE200CB065000E5797 /* msg_black.png */; };
+		0591B1C1200CB066000E5797 /* user_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1BF200CB065000E5797 /* user_black.png */; };
+		0591B1C3200CB083000E5797 /* mobile_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1C2200CB083000E5797 /* mobile_black.png */; };
+		0591B1C5200CB0A8000E5797 /* password_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1C4200CB0A8000E5797 /* password_black.png */; };
+		0591B1CB200CB6DF000E5797 /* SelectProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B1CA200CB6DF000E5797 /* SelectProfileViewController.swift */; };
+		0591B1CE200CB730000E5797 /* VetSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B1CD200CB730000E5797 /* VetSignUpViewController.swift */; };
+		0591B1D0200CB8F0000E5797 /* show_pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1CF200CB8F0000E5797 /* show_pass.png */; };
+		0591B1D2200CBA50000E5797 /* hide_pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1D1200CBA50000E5797 /* hide_pass.png */; };
+		0591B1D5200CC2B8000E5797 /* VetSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B1D4200CC2B8000E5797 /* VetSignInViewController.swift */; };
+		0591B1D7200CD28F000E5797 /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1D6200CD28E000E5797 /* back_arrow.png */; };
+		0591B1D9200CD4F0000E5797 /* forgot_pass_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1D8200CD4EF000E5797 /* forgot_pass_icon.png */; };
+		0591B1DC200CD59C000E5797 /* VetFotgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B1DB200CD59C000E5797 /* VetFotgotPasswordViewController.swift */; };
+		0591B1DE200CDC1F000E5797 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1DD200CDC1F000E5797 /* checked.png */; };
+		0591B1E3200CDD74000E5797 /* tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1DF200CDD71000E5797 /* tab_2.png */; };
+		0591B1E4200CDD74000E5797 /* tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1E0200CDD72000E5797 /* tab_1.png */; };
+		0591B1E5200CDD74000E5797 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1E1200CDD72000E5797 /* bg.png */; };
+		0591B1E6200CDD74000E5797 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1E2200CDD73000E5797 /* btn.png */; };
+		0591B1E8200CE03C000E5797 /* Veterinarian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1E7200CE03C000E5797 /* Veterinarian.storyboard */; };
+		0591B1EC200CE127000E5797 /* VetForgotConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B1EB200CE127000E5797 /* VetForgotConfirmationViewController.swift */; };
+		0591B1EE200CE3A8000E5797 /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1ED200CE3A8000E5797 /* mobile.png */; };
+		0591B1F0200CE41C000E5797 /* msg_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1EF200CE41C000E5797 /* msg_white.png */; };
+		0591B1F3200CE820000E5797 /* VetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B1F2200CE820000E5797 /* VetProfileViewController.swift */; };
+		0591B1F5200CE8CE000E5797 /* my_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1F4200CE8CE000E5797 /* my_profile.png */; };
+		0591B1F8200CEFB6000E5797 /* PetOwner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1F7200CEFB6000E5797 /* PetOwner.storyboard */; };
+		0591B1FF200CF03C000E5797 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1F9200CF03B000E5797 /* message.png */; };
+		0591B200200CF03C000E5797 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1FA200CF03B000E5797 /* settings.png */; };
+		0591B201200CF03C000E5797 /* pets.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1FB200CF03B000E5797 /* pets.png */; };
+		0591B202200CF03C000E5797 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1FC200CF03C000E5797 /* add.png */; };
+		0591B203200CF03C000E5797 /* search_doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1FD200CF03C000E5797 /* search_doctor.png */; };
+		0591B204200CF03C000E5797 /* user (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 0591B1FE200CF03C000E5797 /* user (2).png */; };
+		0591B207200CF0F0000E5797 /* PetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591B206200CF0F0000E5797 /* PetProfileViewController.swift */; };
+		0593273B2029988C00806F33 /* PetAcceptedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593273A2029988C00806F33 /* PetAcceptedViewController.swift */; };
+		0593273D2029D4ED00806F33 /* petCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593273C2029D4EC00806F33 /* petCell.swift */; };
+		059327402029F05A00806F33 /* DoctorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593273F2029F05A00806F33 /* DoctorDetailsViewController.swift */; };
+		059327422029F4E500806F33 /* graduation-student-black-cap.png in Resources */ = {isa = PBXBuildFile; fileRef = 059327412029F4E500806F33 /* graduation-student-black-cap.png */; };
+		059327442029F53C00806F33 /* icon (3).png in Resources */ = {isa = PBXBuildFile; fileRef = 059327432029F53B00806F33 /* icon (3).png */; };
+		05A4A1E6202AD2DD008615F3 /* selectBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A4A1E5202AD2DD008615F3 /* selectBtn.png */; };
+		05A4A1E8202AD3A6008615F3 /* chat (6).png in Resources */ = {isa = PBXBuildFile; fileRef = 05A4A1E7202AD3A5008615F3 /* chat (6).png */; };
+		05AC0DB720286B2E00390DD8 /* VetAcceptedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC0DB620286B2E00390DD8 /* VetAcceptedViewController.swift */; };
+		05AC0DBA20286B9D00390DD8 /* AcceptedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC0DB820286B9D00390DD8 /* AcceptedCell.swift */; };
+		05AC0DBB20286B9D00390DD8 /* AcceptedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AC0DB920286B9D00390DD8 /* AcceptedCell.xib */; };
+		05AC0DBE20286BBC00390DD8 /* InvitationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC0DBC20286BBC00390DD8 /* InvitationsCell.swift */; };
+		05AC0DBF20286BBC00390DD8 /* InvitationsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AC0DBD20286BBC00390DD8 /* InvitationsCell.xib */; };
+		05AC0DC220286BD800390DD8 /* BlockedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC0DC020286BD800390DD8 /* BlockedCell.swift */; };
+		05AC0DC320286BD800390DD8 /* BlockedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AC0DC120286BD800390DD8 /* BlockedCell.xib */; };
+		05AC0DC720286FC900390DD8 /* smartphone-call (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 05AC0DC520286FC900390DD8 /* smartphone-call (1).png */; };
+		05AF65C42015C27A009E26E3 /* add_client_header_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 05AF65C32015C27A009E26E3 /* add_client_header_image.png */; };
+		05AF65C72015C2E2009E26E3 /* addClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF65C62015C2E2009E26E3 /* addClientViewController.swift */; };
+		05AF65CA2015EBB3009E26E3 /* changePinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF65C92015EBB3009E26E3 /* changePinViewController.swift */; };
+		05D21A6F202B2AD0006D12BC /* PetAcceptedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D21A6D202B2AD0006D12BC /* PetAcceptedCell.swift */; };
+		05D21A70202B2AD1006D12BC /* PetAcceptedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D21A6E202B2AD0006D12BC /* PetAcceptedCell.xib */; };
+		05D21A73202B2B14006D12BC /* PetInvitationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D21A71202B2B14006D12BC /* PetInvitationsCell.swift */; };
+		05D21A74202B2B14006D12BC /* PetInvitationsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D21A72202B2B14006D12BC /* PetInvitationsCell.xib */; };
+		05D21A77202B2B35006D12BC /* PetPendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D21A75202B2B35006D12BC /* PetPendingCell.swift */; };
+		05D21A78202B2B35006D12BC /* PetPendingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D21A76202B2B35006D12BC /* PetPendingCell.xib */; };
+		05D21A7B202B2DD6006D12BC /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D21A79202B2DD6006D12BC /* accept.png */; };
+		05D21A7C202B2DD6006D12BC /* reject.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D21A7A202B2DD6006D12BC /* reject.png */; };
+		05D7205F20298DF8009C83D1 /* magnifier.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D7205E20298DF7009C83D1 /* magnifier.png */; };
+		05FBA932202D7944004B848D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05FBA931202D7944004B848D /* GoogleService-Info.plist */; };
+		3E0D78C64C503F5B9408A4A6 /* Pods_Video_Call_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCA212962A96CCC1EC7153B /* Pods_Video_Call_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0531968C201203520042C818 /* accessKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessKeyViewController.swift; sourceTree = "<group>"; };
+		0531968E20120A0D0042C818 /* client_449566904600-ajo4at6pl1ajq5phlh0kne1m7mfd0vfd.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_449566904600-ajo4at6pl1ajq5phlh0kne1m7mfd0vfd.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		05319690201219FF0042C818 /* more_options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_options.png; sourceTree = "<group>"; };
+		055CD31020249E2500A6928C /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
+		055CD31120249E2600A6928C /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hide.png; sourceTree = "<group>"; };
+		05608F5E203196CF00DB887A /* ReceiverOnlyFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverOnlyFileCell.swift; sourceTree = "<group>"; };
+		05608F5F203196D000DB887A /* SenderOnlyTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderOnlyTextCell.swift; sourceTree = "<group>"; };
+		05608F60203196D000DB887A /* SenderOnlyFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenderOnlyFileCell.xib; sourceTree = "<group>"; };
+		05608F61203196D100DB887A /* ReceiverOnlyTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiverOnlyTextCell.xib; sourceTree = "<group>"; };
+		05608F62203196D200DB887A /* ReceiverOnlyFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiverOnlyFileCell.xib; sourceTree = "<group>"; };
+		05608F63203196D200DB887A /* ReceiverOnlyTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverOnlyTextCell.swift; sourceTree = "<group>"; };
+		05608F64203196D200DB887A /* SenderOnlyTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenderOnlyTextCell.xib; sourceTree = "<group>"; };
+		05608F65203196D300DB887A /* SenderOnlyFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderOnlyFileCell.swift; sourceTree = "<group>"; };
+		05608F66203196D300DB887A /* VetChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VetChatViewController.swift; sourceTree = "<group>"; };
+		05608F702031A17F00DB887A /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		05608F722031C9AB00DB887A /* unseen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unseen.png; sourceTree = "<group>"; };
+		05608F732031C9AC00DB887A /* seen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seen.png; sourceTree = "<group>"; };
+		05608F762031CBCB00DB887A /* file_atach_172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_atach_172.png; sourceTree = "<group>"; };
+		05608F782031CC0B00DB887A /* send_blue_96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_blue_96.png; sourceTree = "<group>"; };
+		05628965202EC8270068FDEE /* ListOfPetOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPetOwnerViewController.swift; sourceTree = "<group>"; };
+		0568D69A200DCDFF005A85F1 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0568D69C200DD917005A85F1 /* ConstantFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantFile.swift; sourceTree = "<group>"; };
+		0568D69F200DE185005A85F1 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		0573F8C520108D430006D7F2 /* PetUpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetUpdateProfileViewController.swift; sourceTree = "<group>"; };
+		057733BC200F249E0028DCF9 /* back_arrow_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow_2.png; sourceTree = "<group>"; };
+		057733BE200F2CA20028DCF9 /* btn_2 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_2 (1).png"; sourceTree = "<group>"; };
+		057733C0200F2CD40028DCF9 /* circle_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_2.png; sourceTree = "<group>"; };
+		057733C2200F31070028DCF9 /* phone_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_black.png; sourceTree = "<group>"; };
+		057733C4200F32260028DCF9 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		057733C6200F33320028DCF9 /* camera_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_.png; path = ../../../../Downloads/camera_.png; sourceTree = "<group>"; };
+		057733C9200F33D10028DCF9 /* VetUpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetUpdateProfileViewController.swift; sourceTree = "<group>"; };
+		05774EDD20170EED00ED7620 /* down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow.png"; sourceTree = "<group>"; };
+		05774EE02017129100ED7620 /* addPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPetViewController.swift; sourceTree = "<group>"; };
+		05774EE5201744F200ED7620 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05774EE6201744F200ED7620 /* RappleColorPicker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RappleColorPicker.podspec; sourceTree = "<group>"; };
+		05774EE7201744F300ED7620 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05774EEB20177C8D00ED7620 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		0586B80E2024448900353542 /* SeearchDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeearchDoctorViewController.swift; sourceTree = "<group>"; };
+		0586B81020244EAA00353542 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		0586B81220244F3600353542 /* drop-down-arrow (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drop-down-arrow (1).png"; sourceTree = "<group>"; };
+		0586B8142024511A00353542 /* facebook-placeholder-for-locate-places-on-maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-placeholder-for-locate-places-on-maps.png"; sourceTree = "<group>"; };
+		0586B8182024520600353542 /* chat (5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat (5).png"; sourceTree = "<group>"; };
+		0586B81A202465FB00353542 /* SearchDoctorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDoctorCell.swift; sourceTree = "<group>"; };
+		058D0DCD201620A1002D550C /* petChangePinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petChangePinViewController.swift; sourceTree = "<group>"; };
+		058D0DCF201628E0002D550C /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		058D0DD0201628E2002D550C /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		058D0DD4201629D3002D550C /* petListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petListViewController.swift; sourceTree = "<group>"; };
+		058D0DD6201629F2002D550C /* PetListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListCell.swift; sourceTree = "<group>"; };
+		0591B196200C7F31000E5797 /* Video Call App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Call App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0591B199200C7F31000E5797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0591B19B200C7F31000E5797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0591B19E200C7F31000E5797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0591B1A0200C7F31000E5797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0591B1A3200C7F31000E5797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0591B1A5200C7F31000E5797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0591B1AE200C8518000E5797 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		0591B1B0200C8649000E5797 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		0591B1B2200C879A000E5797 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0591B1B4200C87B1000E5797 /* app_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_title.png; sourceTree = "<group>"; };
+		0591B1B6200C90DE000E5797 /* video_calling_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_calling_bg.png; sourceTree = "<group>"; };
+		0591B1B8200C9258000E5797 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		0591B1BA200C93A2000E5797 /* pet_owner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_owner.png; sourceTree = "<group>"; };
+		0591B1BB200C93A2000E5797 /* veterinarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veterinarian.png; sourceTree = "<group>"; };
+		0591B1BE200CB065000E5797 /* msg_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_black.png; sourceTree = "<group>"; };
+		0591B1BF200CB065000E5797 /* user_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_black.png; sourceTree = "<group>"; };
+		0591B1C2200CB083000E5797 /* mobile_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile_black.png; sourceTree = "<group>"; };
+		0591B1C4200CB0A8000E5797 /* password_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_black.png; sourceTree = "<group>"; };
+		0591B1C7200CB670000E5797 /* GetStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartViewController.swift; sourceTree = "<group>"; };
+		0591B1CA200CB6DF000E5797 /* SelectProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfileViewController.swift; sourceTree = "<group>"; };
+		0591B1CD200CB730000E5797 /* VetSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetSignUpViewController.swift; sourceTree = "<group>"; };
+		0591B1CF200CB8F0000E5797 /* show_pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show_pass.png; sourceTree = "<group>"; };
+		0591B1D1200CBA50000E5797 /* hide_pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hide_pass.png; sourceTree = "<group>"; };
+		0591B1D4200CC2B8000E5797 /* VetSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetSignInViewController.swift; sourceTree = "<group>"; };
+		0591B1D6200CD28E000E5797 /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
+		0591B1D8200CD4EF000E5797 /* forgot_pass_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forgot_pass_icon.png; sourceTree = "<group>"; };
+		0591B1DB200CD59C000E5797 /* VetFotgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetFotgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0591B1DD200CDC1F000E5797 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		0591B1DF200CDD71000E5797 /* tab_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_2.png; sourceTree = "<group>"; };
+		0591B1E0200CDD72000E5797 /* tab_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_1.png; sourceTree = "<group>"; };
+		0591B1E1200CDD72000E5797 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0591B1E2200CDD73000E5797 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		0591B1E7200CE03C000E5797 /* Veterinarian.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Veterinarian.storyboard; sourceTree = "<group>"; };
+		0591B1EB200CE127000E5797 /* VetForgotConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetForgotConfirmationViewController.swift; sourceTree = "<group>"; };
+		0591B1ED200CE3A8000E5797 /* mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile.png; sourceTree = "<group>"; };
+		0591B1EF200CE41C000E5797 /* msg_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_white.png; sourceTree = "<group>"; };
+		0591B1F2200CE820000E5797 /* VetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetProfileViewController.swift; sourceTree = "<group>"; };
+		0591B1F4200CE8CE000E5797 /* my_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_profile.png; sourceTree = "<group>"; };
+		0591B1F7200CEFB6000E5797 /* PetOwner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PetOwner.storyboard; sourceTree = "<group>"; };
+		0591B1F9200CF03B000E5797 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		0591B1FA200CF03B000E5797 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		0591B1FB200CF03B000E5797 /* pets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pets.png; sourceTree = "<group>"; };
+		0591B1FC200CF03C000E5797 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		0591B1FD200CF03C000E5797 /* search_doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_doctor.png; sourceTree = "<group>"; };
+		0591B1FE200CF03C000E5797 /* user (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user (2).png"; sourceTree = "<group>"; };
+		0591B206200CF0F0000E5797 /* PetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileViewController.swift; sourceTree = "<group>"; };
+		0593273A2029988C00806F33 /* PetAcceptedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAcceptedViewController.swift; sourceTree = "<group>"; };
+		0593273C2029D4EC00806F33 /* petCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petCell.swift; sourceTree = "<group>"; };
+		0593273F2029F05A00806F33 /* DoctorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsViewController.swift; sourceTree = "<group>"; };
+		059327412029F4E500806F33 /* graduation-student-black-cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graduation-student-black-cap.png"; sourceTree = "<group>"; };
+		059327432029F53B00806F33 /* icon (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon (3).png"; sourceTree = "<group>"; };
+		05A4A1E5202AD2DD008615F3 /* selectBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectBtn.png; sourceTree = "<group>"; };
+		05A4A1E7202AD3A5008615F3 /* chat (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat (6).png"; sourceTree = "<group>"; };
+		05AC0DB620286B2E00390DD8 /* VetAcceptedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetAcceptedViewController.swift; sourceTree = "<group>"; };
+		05AC0DB820286B9D00390DD8 /* AcceptedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedCell.swift; sourceTree = "<group>"; };
+		05AC0DB920286B9D00390DD8 /* AcceptedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcceptedCell.xib; sourceTree = "<group>"; };
+		05AC0DBC20286BBC00390DD8 /* InvitationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationsCell.swift; sourceTree = "<group>"; };
+		05AC0DBD20286BBC00390DD8 /* InvitationsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvitationsCell.xib; sourceTree = "<group>"; };
+		05AC0DC020286BD800390DD8 /* BlockedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedCell.swift; sourceTree = "<group>"; };
+		05AC0DC120286BD800390DD8 /* BlockedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockedCell.xib; sourceTree = "<group>"; };
+		05AC0DC520286FC900390DD8 /* smartphone-call (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartphone-call (1).png"; sourceTree = "<group>"; };
+		05AF65C32015C27A009E26E3 /* add_client_header_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_client_header_image.png; sourceTree = "<group>"; };
+		05AF65C62015C2E2009E26E3 /* addClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addClientViewController.swift; sourceTree = "<group>"; };
+		05AF65C92015EBB3009E26E3 /* changePinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePinViewController.swift; sourceTree = "<group>"; };
+		05D21A6D202B2AD0006D12BC /* PetAcceptedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAcceptedCell.swift; sourceTree = "<group>"; };
+		05D21A6E202B2AD0006D12BC /* PetAcceptedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetAcceptedCell.xib; sourceTree = "<group>"; };
+		05D21A71202B2B14006D12BC /* PetInvitationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInvitationsCell.swift; sourceTree = "<group>"; };
+		05D21A72202B2B14006D12BC /* PetInvitationsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetInvitationsCell.xib; sourceTree = "<group>"; };
+		05D21A75202B2B35006D12BC /* PetPendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPendingCell.swift; sourceTree = "<group>"; };
+		05D21A76202B2B35006D12BC /* PetPendingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetPendingCell.xib; sourceTree = "<group>"; };
+		05D21A79202B2DD6006D12BC /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		05D21A7A202B2DD6006D12BC /* reject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reject.png; sourceTree = "<group>"; };
+		05D7205E20298DF7009C83D1 /* magnifier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier.png; sourceTree = "<group>"; };
+		05FBA931202D7944004B848D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		05FBA933202D7ABF004B848D /* Video Call App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Video Call App.entitlements"; sourceTree = "<group>"; };
+		1BBD728C75C7A8145B0D1F24 /* Pods-Video Call App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video Call App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Video Call App/Pods-Video Call App.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCA212962A96CCC1EC7153B /* Pods_Video_Call_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Call_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E68215F749C996422B11A33 /* Pods-Video Call App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video Call App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Video Call App/Pods-Video Call App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0591B193200C7F30000E5797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0D78C64C503F5B9408A4A6 /* Pods_Video_Call_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0459B879987248704D980C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA212962A96CCC1EC7153B /* Pods_Video_Call_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0531968B2012031D0042C818 /* Access Key VC */ = {
+			isa = PBXGroup;
+			children = (
+				0531968C201203520042C818 /* accessKeyViewController.swift */,
+			);
+			path = "Access Key VC";
+			sourceTree = "<group>";
+		};
+		05608F5D20316FF400DB887A /* Chat Page For Vet */ = {
+			isa = PBXGroup;
+			children = (
+				05608F5E203196CF00DB887A /* ReceiverOnlyFileCell.swift */,
+				05608F62203196D200DB887A /* ReceiverOnlyFileCell.xib */,
+				05608F63203196D200DB887A /* ReceiverOnlyTextCell.swift */,
+				05608F61203196D100DB887A /* ReceiverOnlyTextCell.xib */,
+				05608F65203196D300DB887A /* SenderOnlyFileCell.swift */,
+				05608F60203196D000DB887A /* SenderOnlyFileCell.xib */,
+				05608F5F203196D000DB887A /* SenderOnlyTextCell.swift */,
+				05608F64203196D200DB887A /* SenderOnlyTextCell.xib */,
+				05608F66203196D300DB887A /* VetChatViewController.swift */,
+			);
+			path = "Chat Page For Vet";
+			sourceTree = "<group>";
+		};
+		05628964202EC7EA0068FDEE /* List Of Pet Ower */ = {
+			isa = PBXGroup;
+			children = (
+				05628965202EC8270068FDEE /* ListOfPetOwnerViewController.swift */,
+			);
+			path = "List Of Pet Ower";
+			sourceTree = "<group>";
+		};
+		0568D699200DCB3E005A85F1 /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				05774EE4201744D800ED7620 /* Podspec Metadata */,
+				0531968E20120A0D0042C818 /* client_449566904600-ajo4at6pl1ajq5phlh0kne1m7mfd0vfd.apps.googleusercontent.com.plist */,
+				0568D69A200DCDFF005A85F1 /* APIManager.swift */,
+				0568D69C200DD917005A85F1 /* ConstantFile.swift */,
+				0568D69F200DE185005A85F1 /* Controller.swift */,
+				05608F702031A17F00DB887A /* DatePickerDialog.swift */,
+			);
+			path = "Helper Class";
+			sourceTree = "<group>";
+		};
+		0573F8C420108D0D0006D7F2 /* Pet Update Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0573F8C520108D430006D7F2 /* PetUpdateProfileViewController.swift */,
+			);
+			path = "Pet Update Profile";
+			sourceTree = "<group>";
+		};
+		057733C8200F33A20028DCF9 /* Vet Update Profile */ = {
+			isa = PBXGroup;
+			children = (
+				057733C9200F33D10028DCF9 /* VetUpdateProfileViewController.swift */,
+			);
+			path = "Vet Update Profile";
+			sourceTree = "<group>";
+		};
+		05774EDF2017126C00ED7620 /* Add Pet */ = {
+			isa = PBXGroup;
+			children = (
+				05774EE02017129100ED7620 /* addPetViewController.swift */,
+			);
+			path = "Add Pet";
+			sourceTree = "<group>";
+		};
+		05774EE4201744D800ED7620 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				05774EE7201744F300ED7620 /* LICENSE */,
+				05774EE6201744F200ED7620 /* RappleColorPicker.podspec */,
+				05774EE5201744F200ED7620 /* README.md */,
+			);
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		0586B80D2024445500353542 /* Search Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				0586B80E2024448900353542 /* SeearchDoctorViewController.swift */,
+				0586B81A202465FB00353542 /* SearchDoctorCell.swift */,
+				0593273C2029D4EC00806F33 /* petCell.swift */,
+			);
+			path = "Search Doctor";
+			sourceTree = "<group>";
+		};
+		058D0DCC2016205C002D550C /* Pet Change Pin */ = {
+			isa = PBXGroup;
+			children = (
+				058D0DCD201620A1002D550C /* petChangePinViewController.swift */,
+			);
+			path = "Pet Change Pin";
+			sourceTree = "<group>";
+		};
+		058D0DD3201629B9002D550C /* Pet List  */ = {
+			isa = PBXGroup;
+			children = (
+				058D0DD4201629D3002D550C /* petListViewController.swift */,
+				058D0DD6201629F2002D550C /* PetListCell.swift */,
+			);
+			path = "Pet List ";
+			sourceTree = "<group>";
+		};
+		0591B18D200C7F30000E5797 = {
+			isa = PBXGroup;
+			children = (
+				0591B198200C7F31000E5797 /* Video Call App */,
+				0591B197200C7F31000E5797 /* Products */,
+				7CBD19CB50CB60285163F162 /* Pods */,
+				0459B879987248704D980C23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0591B197200C7F31000E5797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0591B196200C7F31000E5797 /* Video Call App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0591B198200C7F31000E5797 /* Video Call App */ = {
+			isa = PBXGroup;
+			children = (
+				05FBA933202D7ABF004B848D /* Video Call App.entitlements */,
+				0568D699200DCB3E005A85F1 /* Helper Class */,
+				0591B1C9200CB6AA000E5797 /* Select Profile VC */,
+				0591B1C6200CB62F000E5797 /* Get Start VC */,
+				0591B1AD200C8494000E5797 /* Pet */,
+				0591B1AC200C8480000E5797 /* Vet */,
+				0591B1AB200C8474000E5797 /* Image  */,
+				0591B199200C7F31000E5797 /* AppDelegate.swift */,
+				0591B19B200C7F31000E5797 /* ViewController.swift */,
+				0591B19D200C7F31000E5797 /* Main.storyboard */,
+				0591B1A0200C7F31000E5797 /* Assets.xcassets */,
+				0591B1A2200C7F31000E5797 /* LaunchScreen.storyboard */,
+				0591B1A5200C7F31000E5797 /* Info.plist */,
+				05FBA931202D7944004B848D /* GoogleService-Info.plist */,
+			);
+			path = "Video Call App";
+			sourceTree = "<group>";
+		};
+		0591B1AB200C8474000E5797 /* Image  */ = {
+			isa = PBXGroup;
+			children = (
+				05608F782031CC0B00DB887A /* send_blue_96.png */,
+				05608F762031CBCB00DB887A /* file_atach_172.png */,
+				05608F732031C9AC00DB887A /* seen.png */,
+				05608F722031C9AB00DB887A /* unseen.png */,
+				05D21A79202B2DD6006D12BC /* accept.png */,
+				05D21A7A202B2DD6006D12BC /* reject.png */,
+				05A4A1E7202AD3A5008615F3 /* chat (6).png */,
+				05A4A1E5202AD2DD008615F3 /* selectBtn.png */,
+				059327432029F53B00806F33 /* icon (3).png */,
+				059327412029F4E500806F33 /* graduation-student-black-cap.png */,
+				05D7205E20298DF7009C83D1 /* magnifier.png */,
+				05AC0DC520286FC900390DD8 /* smartphone-call (1).png */,
+				055CD31120249E2600A6928C /* hide.png */,
+				055CD31020249E2500A6928C /* show.png */,
+				0586B8182024520600353542 /* chat (5).png */,
+				0586B8142024511A00353542 /* facebook-placeholder-for-locate-places-on-maps.png */,
+				0586B81220244F3600353542 /* drop-down-arrow (1).png */,
+				0586B81020244EAA00353542 /* search.png */,
+				05774EEB20177C8D00ED7620 /* plus.png */,
+				05774EDD20170EED00ED7620 /* down-arrow.png */,
+				058D0DCF201628E0002D550C /* delete.png */,
+				058D0DD0201628E2002D550C /* edit.png */,
+				05AF65C32015C27A009E26E3 /* add_client_header_image.png */,
+				05319690201219FF0042C818 /* more_options.png */,
+				057733C6200F33320028DCF9 /* camera_.png */,
+				057733C4200F32260028DCF9 /* location.png */,
+				057733C2200F31070028DCF9 /* phone_black.png */,
+				057733C0200F2CD40028DCF9 /* circle_2.png */,
+				057733BE200F2CA20028DCF9 /* btn_2 (1).png */,
+				057733BC200F249E0028DCF9 /* back_arrow_2.png */,
+				0591B1FC200CF03C000E5797 /* add.png */,
+				0591B1F9200CF03B000E5797 /* message.png */,
+				0591B1FB200CF03B000E5797 /* pets.png */,
+				0591B1FD200CF03C000E5797 /* search_doctor.png */,
+				0591B1FA200CF03B000E5797 /* settings.png */,
+				0591B1FE200CF03C000E5797 /* user (2).png */,
+				0591B1F4200CE8CE000E5797 /* my_profile.png */,
+				0591B1ED200CE3A8000E5797 /* mobile.png */,
+				0591B1D6200CD28E000E5797 /* back_arrow.png */,
+				0591B1D1200CBA50000E5797 /* hide_pass.png */,
+				0591B1CF200CB8F0000E5797 /* show_pass.png */,
+				0591B1AE200C8518000E5797 /* splash.png */,
+				0591B1B0200C8649000E5797 /* play.png */,
+				0591B1B2200C879A000E5797 /* camera.png */,
+				0591B1B4200C87B1000E5797 /* app_title.png */,
+				0591B1B6200C90DE000E5797 /* video_calling_bg.png */,
+				0591B1B8200C9258000E5797 /* help.png */,
+				0591B1BA200C93A2000E5797 /* pet_owner.png */,
+				0591B1BB200C93A2000E5797 /* veterinarian.png */,
+				0591B1BE200CB065000E5797 /* msg_black.png */,
+				0591B1BF200CB065000E5797 /* user_black.png */,
+				0591B1C2200CB083000E5797 /* mobile_black.png */,
+				0591B1C4200CB0A8000E5797 /* password_black.png */,
+				0591B1D8200CD4EF000E5797 /* forgot_pass_icon.png */,
+				0591B1DD200CDC1F000E5797 /* checked.png */,
+				0591B1E1200CDD72000E5797 /* bg.png */,
+				0591B1E2200CDD73000E5797 /* btn.png */,
+				0591B1E0200CDD72000E5797 /* tab_1.png */,
+				0591B1DF200CDD71000E5797 /* tab_2.png */,
+				0591B1EF200CE41C000E5797 /* msg_white.png */,
+			);
+			path = "Image ";
+			sourceTree = "<group>";
+		};
+		0591B1AC200C8480000E5797 /* Vet */ = {
+			isa = PBXGroup;
+			children = (
+				05608F5D20316FF400DB887A /* Chat Page For Vet */,
+				05628964202EC7EA0068FDEE /* List Of Pet Ower */,
+				05AC0DB520286AD700390DD8 /* Vet Accepted View Controller */,
+				05AF65C82015EB82009E26E3 /* Change pin */,
+				05AF65C52015C2C6009E26E3 /* Add Client */,
+				0531968B2012031D0042C818 /* Access Key VC */,
+				057733C8200F33A20028DCF9 /* Vet Update Profile */,
+				0591B1F1200CE80B000E5797 /* Vet Profile */,
+				0591B1EA200CE0D2000E5797 /* Vet Forgot confirmation */,
+				0591B1DA200CD56F000E5797 /* Vet Forgot Pass VC */,
+				0591B1D3200CC293000E5797 /* Vet And Pet Sign In */,
+				0591B1CC200CB70B000E5797 /* Vet and Pet Sign Up */,
+				0591B1E9200CE06C000E5797 /* Vet Storyboard */,
+			);
+			path = Vet;
+			sourceTree = "<group>";
+		};
+		0591B1AD200C8494000E5797 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				0593273E2029EFF900806F33 /* Doctor Details  */,
+				059327392029982000806F33 /* Pet Accepted View Controller */,
+				0586B80D2024445500353542 /* Search Doctor */,
+				05774EDF2017126C00ED7620 /* Add Pet */,
+				058D0DD3201629B9002D550C /* Pet List  */,
+				058D0DCC2016205C002D550C /* Pet Change Pin */,
+				0573F8C420108D0D0006D7F2 /* Pet Update Profile */,
+				0591B205200CF0D9000E5797 /* Pet Profile */,
+				0591B1F6200CEF86000E5797 /* Pet Storyboard */,
+			);
+			path = Pet;
+			sourceTree = "<group>";
+		};
+		0591B1C6200CB62F000E5797 /* Get Start VC */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1C7200CB670000E5797 /* GetStartViewController.swift */,
+			);
+			path = "Get Start VC";
+			sourceTree = "<group>";
+		};
+		0591B1C9200CB6AA000E5797 /* Select Profile VC */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1CA200CB6DF000E5797 /* SelectProfileViewController.swift */,
+			);
+			path = "Select Profile VC";
+			sourceTree = "<group>";
+		};
+		0591B1CC200CB70B000E5797 /* Vet and Pet Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1CD200CB730000E5797 /* VetSignUpViewController.swift */,
+			);
+			path = "Vet and Pet Sign Up";
+			sourceTree = "<group>";
+		};
+		0591B1D3200CC293000E5797 /* Vet And Pet Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1D4200CC2B8000E5797 /* VetSignInViewController.swift */,
+			);
+			path = "Vet And Pet Sign In";
+			sourceTree = "<group>";
+		};
+		0591B1DA200CD56F000E5797 /* Vet Forgot Pass VC */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1DB200CD59C000E5797 /* VetFotgotPasswordViewController.swift */,
+			);
+			path = "Vet Forgot Pass VC";
+			sourceTree = "<group>";
+		};
+		0591B1E9200CE06C000E5797 /* Vet Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1E7200CE03C000E5797 /* Veterinarian.storyboard */,
+			);
+			path = "Vet Storyboard";
+			sourceTree = "<group>";
+		};
+		0591B1EA200CE0D2000E5797 /* Vet Forgot confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1EB200CE127000E5797 /* VetForgotConfirmationViewController.swift */,
+			);
+			path = "Vet Forgot confirmation";
+			sourceTree = "<group>";
+		};
+		0591B1F1200CE80B000E5797 /* Vet Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1F2200CE820000E5797 /* VetProfileViewController.swift */,
+			);
+			path = "Vet Profile";
+			sourceTree = "<group>";
+		};
+		0591B1F6200CEF86000E5797 /* Pet Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0591B1F7200CEFB6000E5797 /* PetOwner.storyboard */,
+			);
+			path = "Pet Storyboard";
+			sourceTree = "<group>";
+		};
+		0591B205200CF0D9000E5797 /* Pet Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0591B206200CF0F0000E5797 /* PetProfileViewController.swift */,
+			);
+			path = "Pet Profile";
+			sourceTree = "<group>";
+		};
+		059327392029982000806F33 /* Pet Accepted View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0593273A2029988C00806F33 /* PetAcceptedViewController.swift */,
+				05D21A6D202B2AD0006D12BC /* PetAcceptedCell.swift */,
+				05D21A6E202B2AD0006D12BC /* PetAcceptedCell.xib */,
+				05D21A71202B2B14006D12BC /* PetInvitationsCell.swift */,
+				05D21A72202B2B14006D12BC /* PetInvitationsCell.xib */,
+				05D21A75202B2B35006D12BC /* PetPendingCell.swift */,
+				05D21A76202B2B35006D12BC /* PetPendingCell.xib */,
+			);
+			path = "Pet Accepted View Controller";
+			sourceTree = "<group>";
+		};
+		0593273E2029EFF900806F33 /* Doctor Details  */ = {
+			isa = PBXGroup;
+			children = (
+				0593273F2029F05A00806F33 /* DoctorDetailsViewController.swift */,
+			);
+			path = "Doctor Details ";
+			sourceTree = "<group>";
+		};
+		05AC0DB520286AD700390DD8 /* Vet Accepted View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05AC0DB620286B2E00390DD8 /* VetAcceptedViewController.swift */,
+				05AC0DB820286B9D00390DD8 /* AcceptedCell.swift */,
+				05AC0DB920286B9D00390DD8 /* AcceptedCell.xib */,
+				05AC0DBC20286BBC00390DD8 /* InvitationsCell.swift */,
+				05AC0DBD20286BBC00390DD8 /* InvitationsCell.xib */,
+				05AC0DC020286BD800390DD8 /* BlockedCell.swift */,
+				05AC0DC120286BD800390DD8 /* BlockedCell.xib */,
+			);
+			name = "Vet Accepted View Controller";
+			path = "Vet Acce";
+			sourceTree = "<group>";
+		};
+		05AF65C52015C2C6009E26E3 /* Add Client */ = {
+			isa = PBXGroup;
+			children = (
+				05AF65C62015C2E2009E26E3 /* addClientViewController.swift */,
+			);
+			path = "Add Client";
+			sourceTree = "<group>";
+		};
+		05AF65C82015EB82009E26E3 /* Change pin */ = {
+			isa = PBXGroup;
+			children = (
+				05AF65C92015EBB3009E26E3 /* changePinViewController.swift */,
+			);
+			path = "Change pin";
+			sourceTree = "<group>";
+		};
+		7CBD19CB50CB60285163F162 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD728C75C7A8145B0D1F24 /* Pods-Video Call App.debug.xcconfig */,
+				7E68215F749C996422B11A33 /* Pods-Video Call App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0591B195200C7F30000E5797 /* Video Call App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0591B1A8200C7F31000E5797 /* Build configuration list for PBXNativeTarget "Video Call App" */;
+			buildPhases = (
+				AD08A8A44230A4C755735505 /* [CP] Check Pods Manifest.lock */,
+				0591B192200C7F30000E5797 /* Sources */,
+				0591B193200C7F30000E5797 /* Frameworks */,
+				0591B194200C7F30000E5797 /* Resources */,
+				18AB45BC64ED2809D53BE9E6 /* [CP] Embed Pods Frameworks */,
+				292BB4CE4731E55293F9AEE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Call App";
+			productName = "Video Call App";
+			productReference = 0591B196200C7F31000E5797 /* Video Call App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0591B18E200C7F30000E5797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "IOS MAC5";
+				TargetAttributes = {
+					0591B195200C7F30000E5797 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0591B191200C7F30000E5797 /* Build configuration list for PBXProject "Video Call App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0591B18D200C7F30000E5797;
+			productRefGroup = 0591B197200C7F31000E5797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0591B195200C7F30000E5797 /* Video Call App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0591B194200C7F30000E5797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D21A7C202B2DD6006D12BC /* reject.png in Resources */,
+				059327422029F4E500806F33 /* graduation-student-black-cap.png in Resources */,
+				0591B1AF200C8518000E5797 /* splash.png in Resources */,
+				0591B1C1200CB066000E5797 /* user_black.png in Resources */,
+				05774EE9201744F300ED7620 /* RappleColorPicker.podspec in Resources */,
+				0591B1C5200CB0A8000E5797 /* password_black.png in Resources */,
+				0591B1B1200C8649000E5797 /* play.png in Resources */,
+				0591B1D9200CD4F0000E5797 /* forgot_pass_icon.png in Resources */,
+				05608F752031C9AD00DB887A /* seen.png in Resources */,
+				0591B1DE200CDC1F000E5797 /* checked.png in Resources */,
+				05D21A74202B2B14006D12BC /* PetInvitationsCell.xib in Resources */,
+				05774EE8201744F300ED7620 /* README.md in Resources */,
+				058D0DD1201628E4002D550C /* delete.png in Resources */,
+				0591B202200CF03C000E5797 /* add.png in Resources */,
+				057733BF200F2CA20028DCF9 /* btn_2 (1).png in Resources */,
+				0591B1E6200CDD74000E5797 /* btn.png in Resources */,
+				0591B1D7200CD28F000E5797 /* back_arrow.png in Resources */,
+				0591B1B9200C9258000E5797 /* help.png in Resources */,
+				0531969120121A000042C818 /* more_options.png in Resources */,
+				0591B204200CF03C000E5797 /* user (2).png in Resources */,
+				05608F6D203196D300DB887A /* SenderOnlyTextCell.xib in Resources */,
+				059327442029F53C00806F33 /* icon (3).png in Resources */,
+				0591B1E8200CE03C000E5797 /* Veterinarian.storyboard in Resources */,
+				05774EDE20170EEE00ED7620 /* down-arrow.png in Resources */,
+				0591B1D2200CBA50000E5797 /* hide_pass.png in Resources */,
+				057733C7200F33320028DCF9 /* camera_.png in Resources */,
+				05608F6B203196D300DB887A /* ReceiverOnlyFileCell.xib in Resources */,
+				0591B1F8200CEFB6000E5797 /* PetOwner.storyboard in Resources */,
+				0591B1E4200CDD74000E5797 /* tab_1.png in Resources */,
+				0591B1BC200C93A2000E5797 /* pet_owner.png in Resources */,
+				0591B1EE200CE3A8000E5797 /* mobile.png in Resources */,
+				0591B1A4200C7F31000E5797 /* LaunchScreen.storyboard in Resources */,
+				05D7205F20298DF8009C83D1 /* magnifier.png in Resources */,
+				0591B1F5200CE8CE000E5797 /* my_profile.png in Resources */,
+				057733BD200F24A10028DCF9 /* back_arrow_2.png in Resources */,
+				0591B1D0200CB8F0000E5797 /* show_pass.png in Resources */,
+				05AC0DC720286FC900390DD8 /* smartphone-call (1).png in Resources */,
+				05AC0DBF20286BBC00390DD8 /* InvitationsCell.xib in Resources */,
+				055CD31220249E2600A6928C /* show.png in Resources */,
+				05A4A1E8202AD3A6008615F3 /* chat (6).png in Resources */,
+				0591B1A1200C7F31000E5797 /* Assets.xcassets in Resources */,
+				0591B1B5200C87B1000E5797 /* app_title.png in Resources */,
+				0591B1BD200C93A2000E5797 /* veterinarian.png in Resources */,
+				0591B200200CF03C000E5797 /* settings.png in Resources */,
+				05608F742031C9AC00DB887A /* unseen.png in Resources */,
+				05D21A70202B2AD1006D12BC /* PetAcceptedCell.xib in Resources */,
+				0591B1B3200C879A000E5797 /* camera.png in Resources */,
+				0591B201200CF03C000E5797 /* pets.png in Resources */,
+				0586B81320244F3700353542 /* drop-down-arrow (1).png in Resources */,
+				05774EEA201744F300ED7620 /* LICENSE in Resources */,
+				05A4A1E6202AD2DD008615F3 /* selectBtn.png in Resources */,
+				05608F6A203196D300DB887A /* ReceiverOnlyTextCell.xib in Resources */,
+				05774EEC20177C9000ED7620 /* plus.png in Resources */,
+				05D21A7B202B2DD6006D12BC /* accept.png in Resources */,
+				0591B19F200C7F31000E5797 /* Main.storyboard in Resources */,
+				05608F69203196D300DB887A /* SenderOnlyFileCell.xib in Resources */,
+				0531968F20120A0D0042C818 /* client_449566904600-ajo4at6pl1ajq5phlh0kne1m7mfd0vfd.apps.googleusercontent.com.plist in Resources */,
+				0591B1C3200CB083000E5797 /* mobile_black.png in Resources */,
+				057733C1200F2CD50028DCF9 /* circle_2.png in Resources */,
+				0591B1B7200C90DF000E5797 /* video_calling_bg.png in Resources */,
+				05D21A78202B2B35006D12BC /* PetPendingCell.xib in Resources */,
+				05FBA932202D7944004B848D /* GoogleService-Info.plist in Resources */,
+				057733C5200F32270028DCF9 /* location.png in Resources */,
+				0586B8192024520700353542 /* chat (5).png in Resources */,
+				0591B203200CF03C000E5797 /* search_doctor.png in Resources */,
+				05AC0DBB20286B9D00390DD8 /* AcceptedCell.xib in Resources */,
+				05608F792031CC0D00DB887A /* send_blue_96.png in Resources */,
+				058D0DD2201628E4002D550C /* edit.png in Resources */,
+				0591B1C0200CB066000E5797 /* msg_black.png in Resources */,
+				0591B1F0200CE41C000E5797 /* msg_white.png in Resources */,
+				0591B1E5200CDD74000E5797 /* bg.png in Resources */,
+				055CD31320249E2600A6928C /* hide.png in Resources */,
+				0586B81120244EAC00353542 /* search.png in Resources */,
+				0586B8152024511C00353542 /* facebook-placeholder-for-locate-places-on-maps.png in Resources */,
+				057733C3200F31080028DCF9 /* phone_black.png in Resources */,
+				05AC0DC320286BD800390DD8 /* BlockedCell.xib in Resources */,
+				0591B1E3200CDD74000E5797 /* tab_2.png in Resources */,
+				05608F772031CBCC00DB887A /* file_atach_172.png in Resources */,
+				0591B1FF200CF03C000E5797 /* message.png in Resources */,
+				05AF65C42015C27A009E26E3 /* add_client_header_image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18AB45BC64ED2809D53BE9E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Video Call App/Pods-Video Call App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/McPicker/McPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RappleColorPicker/RappleColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/McPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RappleColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Video Call App/Pods-Video Call App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292BB4CE4731E55293F9AEE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Video Call App/Pods-Video Call App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Video Call App/Pods-Video Call App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD08A8A44230A4C755735505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video Call App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0591B192200C7F30000E5797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0591B1D5200CC2B8000E5797 /* VetSignInViewController.swift in Sources */,
+				058D0DD7201629F2002D550C /* PetListCell.swift in Sources */,
+				05774EE12017129100ED7620 /* addPetViewController.swift in Sources */,
+				0591B1CB200CB6DF000E5797 /* SelectProfileViewController.swift in Sources */,
+				059327402029F05A00806F33 /* DoctorDetailsViewController.swift in Sources */,
+				0591B19C200C7F31000E5797 /* ViewController.swift in Sources */,
+				0573F8C620108D430006D7F2 /* PetUpdateProfileViewController.swift in Sources */,
+				05608F68203196D300DB887A /* SenderOnlyTextCell.swift in Sources */,
+				0568D6A1200DE186005A85F1 /* Controller.swift in Sources */,
+				0568D69B200DCDFF005A85F1 /* APIManager.swift in Sources */,
+				0591B1EC200CE127000E5797 /* VetForgotConfirmationViewController.swift in Sources */,
+				0591B1F3200CE820000E5797 /* VetProfileViewController.swift in Sources */,
+				058D0DD5201629D3002D550C /* petListViewController.swift in Sources */,
+				057733CA200F33D10028DCF9 /* VetUpdateProfileViewController.swift in Sources */,
+				0591B207200CF0F0000E5797 /* PetProfileViewController.swift in Sources */,
+				0591B1DC200CD59C000E5797 /* VetFotgotPasswordViewController.swift in Sources */,
+				05AC0DC220286BD800390DD8 /* BlockedCell.swift in Sources */,
+				0531968D201203520042C818 /* accessKeyViewController.swift in Sources */,
+				0586B81B202465FB00353542 /* SearchDoctorCell.swift in Sources */,
+				0591B19A200C7F31000E5797 /* AppDelegate.swift in Sources */,
+				05AC0DB720286B2E00390DD8 /* VetAcceptedViewController.swift in Sources */,
+				05D21A73202B2B14006D12BC /* PetInvitationsCell.swift in Sources */,
+				05AC0DBE20286BBC00390DD8 /* InvitationsCell.swift in Sources */,
+				05D21A77202B2B35006D12BC /* PetPendingCell.swift in Sources */,
+				05608F6E203196D300DB887A /* SenderOnlyFileCell.swift in Sources */,
+				05628966202EC8270068FDEE /* ListOfPetOwnerViewController.swift in Sources */,
+				05AF65CA2015EBB3009E26E3 /* changePinViewController.swift in Sources */,
+				05AC0DBA20286B9D00390DD8 /* AcceptedCell.swift in Sources */,
+				058D0DCE201620A1002D550C /* petChangePinViewController.swift in Sources */,
+				05608F712031A17F00DB887A /* DatePickerDialog.swift in Sources */,
+				05608F67203196D300DB887A /* ReceiverOnlyFileCell.swift in Sources */,
+				05D21A6F202B2AD0006D12BC /* PetAcceptedCell.swift in Sources */,
+				0593273B2029988C00806F33 /* PetAcceptedViewController.swift in Sources */,
+				0591B1CE200CB730000E5797 /* VetSignUpViewController.swift in Sources */,
+				0593273D2029D4ED00806F33 /* petCell.swift in Sources */,
+				05608F6F203196D300DB887A /* VetChatViewController.swift in Sources */,
+				0568D69D200DD917005A85F1 /* ConstantFile.swift in Sources */,
+				05AF65C72015C2E2009E26E3 /* addClientViewController.swift in Sources */,
+				0586B80F2024448900353542 /* SeearchDoctorViewController.swift in Sources */,
+				05608F6C203196D300DB887A /* ReceiverOnlyTextCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0591B19D200C7F31000E5797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0591B19E200C7F31000E5797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0591B1A2200C7F31000E5797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0591B1A3200C7F31000E5797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0591B1A6200C7F31000E5797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0591B1A7200C7F31000E5797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0591B1A9200C7F31000E5797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBD728C75C7A8145B0D1F24 /* Pods-Video Call App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Video Call App/Video Call App.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 66ST2AWSZL;
+				INFOPLIST_FILE = "Video Call App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technoexponent.VideoCallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "42a9bf5f-b204-4de2-a6b1-67f4d4f46fa9";
+				PROVISIONING_PROFILE_SPECIFIER = "VideoCallApp-Dev";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0591B1AA200C7F31000E5797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E68215F749C996422B11A33 /* Pods-Video Call App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Video Call App/Video Call App.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 66ST2AWSZL;
+				INFOPLIST_FILE = "Video Call App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technoexponent.VideoCallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "42a9bf5f-b204-4de2-a6b1-67f4d4f46fa9";
+				PROVISIONING_PROFILE_SPECIFIER = "VideoCallApp-Dev";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0591B191200C7F30000E5797 /* Build configuration list for PBXProject "Video Call App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0591B1A6200C7F31000E5797 /* Debug */,
+				0591B1A7200C7F31000E5797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0591B1A8200C7F31000E5797 /* Build configuration list for PBXNativeTarget "Video Call App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0591B1A9200C7F31000E5797 /* Debug */,
+				0591B1AA200C7F31000E5797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0591B18E200C7F30000E5797 /* Project object */;
+}
